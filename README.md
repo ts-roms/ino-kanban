@@ -5,6 +5,12 @@ It demonstrates core features such as columns, tickets with tags, priority level
 
 ---
 
+## Demo (Vercel App)
+
+```bash
+ https://ino-kanban-1as8qmti2-roms-dev.vercel.app/
+```
+
 ## 🚀 How to Run the Project
 
 ### Prerequisites
