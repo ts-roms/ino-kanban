@@ -49,3 +49,4 @@ Open [http://localhost:3000] with your browser to see the result
 - Editing Details
 - Additional Error handling for dragging ticket
 - Utilize zustand store for state management
+- CRUD Ticket functionality
