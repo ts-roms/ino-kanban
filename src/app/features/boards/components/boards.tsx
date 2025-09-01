@@ -32,7 +32,9 @@ export const KanbanBoard = () => {
           )
         )
 
-      } catch (err: any) {
+      } catch (err) {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-expect-error
         setError(err.message)
       } finally {
         setLoading(false)
