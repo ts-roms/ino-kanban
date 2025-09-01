@@ -1,0 +1,31 @@
+import { Ticket } from "../@types/ticket";
+
+export const tickets: Ticket[] = [
+  {
+    id: "1",
+    columnId: "todo",
+    name: "Setup project",
+    description: "Initialize Next.js project with Tailwind CSS",
+    createdAt: "2025-09-01T09:00:00Z",
+    updatedAt: "2025-09-01T10:00:00Z",
+    tags: ["setup", "nextjs"],
+  },
+  {
+    id: "2",
+    columnId: "in-progress",
+    name: "Add Kanban layout",
+    description: "Create 3-column layout with responsive grid",
+    createdAt: "2025-09-01T09:30:00Z",
+    updatedAt: "2025-09-01T11:00:00Z",
+    tags: ["ui", "layout"],
+  },
+  {
+    id: "3",
+    columnId: "done",
+    name: "Install dependencies",
+    description: "Install React Query, Zustand, Tailwind, etc.",
+    createdAt: "2025-08-31T08:00:00Z",
+    updatedAt: "2025-08-31T09:00:00Z",
+    tags: ["deps"],
+  },
+];
