@@ -15,7 +15,7 @@ It demonstrates core features such as columns, tickets with tags, priority level
 
 ```bash
 
-git clone https://github.com/your-username/kanban-board.git
+git clone https://github.com/ts-roms/ino-kanban.git
 cd kanban-board
 
 # Install dependencies
